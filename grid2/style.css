@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    grid-template-areas:
+        "top top top"
+        "side main main"
+        "side main main";
+
+    height: 800px;
+}
+
+div {
+    border: 1px solid red;
+}
+
+.one {
+    grid-area: top;
+}
+
+.two {
+    grid-area: side;
+}
+
+.three {
+    grid-area: main;
+}
+
+/* .one {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.two {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+} */

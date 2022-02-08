@@ -1,0 +1,23 @@
+p {
+    font-size: 50px;
+}
+
+.small {
+    font-size: 10px;
+    background-color: orange;
+}
+
+.bordered {
+    border: 10px solid red;
+}
+
+.important {
+    background-color: lightblue;
+    width: 300px;
+    border: 1px solid blue;
+}
+
+.purple {
+    background-color: purple;
+    color: white;
+}

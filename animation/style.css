@@ -1,0 +1,65 @@
+.animated1 {
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 200px;
+    top: 30px;
+    left: 100px;
+
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.animated2 {
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 200px;
+    top: 30px;
+    left: 100px;
+
+    animation-name: crazy;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes fade {
+    from {
+       opacity: 0; 
+    }
+
+    to {
+        opacity: 1;
+        left: 400px;
+        background-color: blue;
+        transform: rotate(100deg);
+    }
+}
+
+@keyframes crazy {
+    0% {
+        left: 100px;
+    }
+
+    50% {
+        left: -20px;
+    }
+
+    75% {
+        top: 300px;
+        transform: scale(0.1);
+    }
+
+    80% {
+        background-color: green;
+    }
+
+    100% {
+        left: 300px;
+    }
+}

@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: lightgray;
+    color: darkslategray;
+    font-size: 30px;
+    font-family: 'Yanone Kaffeesatz';
+
+    /* background-image: url('puppy.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Comforter';
+
+}
+

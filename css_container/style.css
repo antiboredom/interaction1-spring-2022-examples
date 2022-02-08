@@ -1,0 +1,38 @@
+body {
+    background-image: linear-gradient(lightblue,pink);
+}
+
+.container {
+    border: 12px dotted black;
+    padding: 30px;
+
+    max-width: 600px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.funny {
+    color: red;
+}
+
+.funny:hover {
+    background-color: black;
+    color: white;
+    width: 40%;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-image: none;
+        background-color: black;
+        color: white;
+    }
+
+    .container {
+        border: 12px dotted white;
+    }
+
+}
