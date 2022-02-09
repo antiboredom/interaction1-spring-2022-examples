@@ -1,0 +1,27 @@
+.project {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    background-color: lightgray;
+}
+
+/* style h2 elements inside of .project classes */
+.project h2 {
+    font-weight: normal;
+    margin: 0;
+}
+
+/* style a elements inside of .project classes */
+.project a {
+    color: white;
+    background-color: black;
+}
+
+.important {
+    border-color: red;
+}
+
+/* style h1, h2 and h3 tags */
+h1,h2,h3 {
+    font-weight: normal;
+}
