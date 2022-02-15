@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 1fr;
+
+    grid-template-areas:
+        "top top top"
+        "left main right";
+}
+
+.thetop {
+    grid-area: top;
+    text-align: right;
+}
+
+.theright {
+    grid-area: right;
+}
+
+.theleft {
+    grid-area: left;
+}
+
+.main {
+    grid-area: main;
+}
